@@ -1,3 +1,20 @@
+# Configuración GIT
+
+Lo primero que deberás hacer es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los **"commits"** de Git usan esta información y también puedes cambiarlas en cualquier momento volviendo a ejecutar los comandos correspondientes:
+
+`$ git config --global user.name "Su nombre"`
+
+`$ git config --global user.email "sucorreo@ejemplo.com"`
+
+Para ver las configuraciones realizadas use el comando:
+
+`$ git config --list`
+
+Para mostrar el origen o ruta de los archivos de configuracion utilize el comando:
+
+`$ git config --list --show-origin`
+
+
 # Comandos basicos en GIT
 
 Para crear un repositorio nuevo.
