@@ -82,3 +82,7 @@ Restablece el encabezado al **commit**, pero esto deja todos sus archivos modifi
 Para crear una nueva rama o una copia de la rama master **HEAD** utiliza el comando:
 
 `$ git branch desarrollo`
+
+Para cambiar de ramas utiliza el comando:
+
+`$ git checkout desarrollo`
