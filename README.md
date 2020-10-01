@@ -1,4 +1,4 @@
-# Configuración GIT
+# Configuración Git
 
 Lo primero que deberás hacer es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los **"commits"** de Git usan esta información y también puedes cambiarlas en cualquier momento volviendo a ejecutar los comandos correspondientes:
 
@@ -15,13 +15,13 @@ Para mostrar el origen o ruta de los archivos de configuracion utilize el comand
 `$ git config --list --show-origin`
 
 
-# Comandos basicos en GIT
+# Comandos basicos en Git
 
 Para crear un repositorio nuevo.
 
 `$ git init`
 
-Este comando creara un respositorio GIT, basicamente una carpeta oculta con el nombre `.git` y subcarpetas. Pero eso no es todo, tambien es creado un archivo inical llamado **HEAD** que hace referencia a la **rama master**.
+Este comando creara un respositorio Git, basicamente una carpeta oculta con el nombre `.git` y subcarpetas. Pero eso no es todo, tambien es creado un archivo inical llamado **HEAD** que hace referencia a la **rama master**.
 
 Se crea tambien una área en memoria ram llamada **Staging "área de preparación"**
 
