@@ -88,3 +88,7 @@ Para cambiar de ramas utiliza el comando:
 `$ git checkout desarrollo`
 
 Ahora te encuentras en la rama desarrollo donde puedes realizar cambios sin afectar a la rama master.
+
+Para eliminar un rama utiliza el comando **git branch** con la bandera **-d**.
+
+`$ git checkout -d desarrollo`
