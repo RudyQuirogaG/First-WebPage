@@ -86,3 +86,5 @@ Para crear una nueva rama o una copia de la rama master **HEAD** utiliza el coma
 Para cambiar de ramas utiliza el comando:
 
 `$ git checkout desarrollo`
+
+Ahora te encuentras en la rama desarrollo donde puedes realizar cambios sin afectar a la rama master.
