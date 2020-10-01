@@ -46,3 +46,33 @@ Mostrara el estado de los archivos **en seguimiento "tracked"** o **sin seguimie
 Para ver los registros de los commits realizado utiliza el comando.
 
 `$ git log`
+
+# Analizar cambios en los archivos
+
+Para mostrar los cambios de un archivo podemos utilizar el comando:
+
+`$ git show README.md`
+
+Un comando muy importante para revisar que paso en tu archivo o proyecto.
+
+Para mostrar los cambios entre dos **commits** utiliza el comando:
+
+`$ git diff 094aa8a f024260`
+
+Comandos muy importantes para realizar un trazo en el tiempo.
+
+# Deshacer cambios o volver en el tiempo.
+
+Git nos permite volver a cualquier estado especifico de un **commit**.
+
+El comando normalmente utilizado es:
+
+`$ git reset --hard f024260`
+
+Cualquier cambio en los archivos rastreados en **área de preparacion "staging"** o en el **directorio de trabajo** desde **commit** se borra.
+
+La otra manera es utilizando la bandera **--soft**.
+
+`$ git reset --soft f024260`
+
+Restablece el encabezado al **commit**, pero esto deja todos sus archivos modificados **tracked** en **área de preparacion "staging"**.
