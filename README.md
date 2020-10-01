@@ -76,3 +76,9 @@ La otra manera es utilizando la bandera **--soft**.
 `$ git reset --soft f024260`
 
 Restablece el encabezado al **commit**, pero esto deja todos sus archivos modificados **tracked** en **área de preparacion "staging"**.
+
+# Branch o ramas
+
+Para crear una nueva rama o una copia de la rama master **HEAD** utiliza el comando:
+
+`$ git branch desarrollo`
