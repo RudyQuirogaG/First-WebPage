@@ -91,4 +91,4 @@ Ahora te encuentras en la rama desarrollo donde puedes realizar cambios sin afec
 
 Para eliminar un rama utiliza el comando **git branch** con la bandera **-d**.
 
-`$ git checkout -d desarrollo`
+`$ git branch -d desarrollo`
