@@ -92,3 +92,21 @@ Ahora te encuentras en la rama desarrollo donde puedes realizar cambios sin afec
 Para eliminar un rama utiliza el comando **git branch** con la bandera **-d**.
 
 `$ git branch -d desarrollo`
+
+# Fusión de dos ramas
+
+**¡Muy importante!** guarda tus cambios con el comando **git commit** en la rama que estes. Si no sabes en que rama estas puedes usar los comandos:
+
+`$ git status`
+
+`$ git branch`
+
+Una vez guardado tus cambios debes cambiar a la rama master para realizar la fusión de dos ramas.
+
+`$ git checkout master`
+
+Si realizas cambios en esta rama guarda tus cambios con el comando **git commit**
+
+Una vez estes listo para unir dos ramas utiliza el comando **git merge** que nos permite crear un nuevo **commit** con la combinacion de dos ramas.
+
+`$ git merge desarrollo`
